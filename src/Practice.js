@@ -1,14 +1,11 @@
+// const filename = 'xyz.pdf';
+// function download () {
+//    //downlogic 
+//    // const filename = 'xyz.pdf';
+//    console.log(filename)
+// }
 
-
-
-const filename = 'xyz.pdf';
-function download () {
-   //downlogic 
-   // const filename = 'xyz.pdf';
-   console.log(filename)
-}
-
-download();
+// download();
 // console.log(filename)
 
 
@@ -64,3 +61,34 @@ download();
 
 
 // export default login
+
+
+//functon decleration and function expression
+
+// function decleration
+// function login() {
+
+// }
+
+
+// function expression 
+//anonymous function
+
+const login = function () {
+   console.log('logged In')
+}
+login()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
