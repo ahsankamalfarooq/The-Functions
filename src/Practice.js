@@ -74,13 +74,23 @@
 // function expression 
 //anonymous function
 
-const login = function () {
-   console.log('logged In')
+// const login = function () {
+//    console.log('logged In')
+// }
+// login()
+
+
+//callback hell
+
+function formatText(text, formatcb) {
+   return typeof formatcb === 'function' ? formatcb(text) : text.toUpperCase()
+   // return text.toUpperCase();
 }
-login()
 
-
-
+const text = formatText('ali', function(text) {
+      return text.charAt(0).toUpperCase() + text.slice(1);
+})
+console.log(text)
 
 
 
