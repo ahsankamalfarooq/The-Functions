@@ -82,15 +82,68 @@
 
 //callback hell
 
-function formatText(text, formatcb) {
-   return typeof formatcb === 'function' ? formatcb(text) : text.toUpperCase()
-   // return text.toUpperCase();
-}
+// function formatText(text, formatcb) {
+//    return typeof formatcb === 'function' ? formatcb(text) : text.toUpperCase()
+//    // return text.toUpperCase();
+// }
 
-const text = formatText('ali', function(text) {
-      return text.charAt(0).toUpperCase() + text.slice(1);
-})
-console.log(text)
+// const text = formatText('ali', function(text) {
+//       return text.charAt(0).toUpperCase() + text.slice(1);
+// })
+// console.log(text)
+
+
+// IIFE ( immediately invoked function expressiojn )
+
+// //in this we dont have to call function seperately it will call automatically when created
+
+// (function setup() {
+//    console.log('setup')
+// }) ();
+
+
+//Arrow functions
+
+// const login = () => {
+//    console.log('logged In')
+// }
+
+// login();
+
+
+// const sum = (num1, num2) => {
+//    return num1 + num2
+// }
+// const result = sum()
+
+// console.log(result)
+
+
+
+//Good practices
+
+//1 function name start with verb
+
+//-2- one fn one action
+
+
+//-3- fn name should be descriptive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
