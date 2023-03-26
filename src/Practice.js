@@ -1,14 +1,25 @@
 
 
 
-function Triarea (width , height) {
-   height = height === undefined ? 5 : height
-   var area = width*height
-   return area
-}    
- var area =  Triarea(2)
- ++area
-console.log(area)
+const filename = 'xyz.pdf';
+function download () {
+   //downlogic 
+   // const filename = 'xyz.pdf';
+   console.log(filename)
+}
+
+download();
+// console.log(filename)
+
+
+// function Triarea (width , height) {
+//    height = height === undefined ? 5 : height
+//    var area = width*height
+//    return area
+// }    
+//  var area =  Triarea(2)
+//  ++area
+// console.log(area)
 
 
 // if not set default value in parameters
