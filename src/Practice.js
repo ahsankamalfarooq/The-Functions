@@ -1,21 +1,34 @@
 
 
 
+function Triarea (width , height) {
+   height = height === undefined ? 5 : height
+   var area = width*height
+   return area
+}    
+ var area =  Triarea(2)
+ ++area
+console.log(area)
 
 
+// if not set default value in parameters
+// function calculateArea(width , height = 10) {
+//    var area = width*height
+//    return area
+// }
 
+// var area = calculateArea(1, 15) 
+// // area += 10;
+// console.log(area)
 
+// function upperCase( str ) {
+// //    console.log(str.toUpperCase())
+//    return str.toUpperCase()
+// }
 
+// const name1 = upperCase("Ali")
 
-
-function upperCase( str ) {
-//    console.log(str.toUpperCase())
-   return str.toUpperCase()
-}
-
-const name1 = upperCase("Ali")
-
-console.log(name1)
+// console.log(name1)
 
 
 
